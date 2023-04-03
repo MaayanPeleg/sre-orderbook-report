@@ -46,3 +46,19 @@ This is what I would suggest for the structure, beggining from the flow of the a
 > - create an example incident and create a runthrough of how we would handle it creating the example around the team
 >    - Then create a **postmortem** and explain why we use **postmortems** and how they are useful more in future **incidents** as they explain what went wrong and ow to improve **MTTR**
 >    - What is **MTTR** and why is it important
+
+# SRE
+The seven **principles** of SRE are:
+> - **Embrace Risk**
+> - **SLO**
+> - **Eliminate Toil**
+> - **Monitoring**
+> - **Automation**
+> - **Release Engineering**
+> - **Simplicity**
+
+We need to include these in our **report** and **explain** how we have **implemented** them and where in each section, For example
+> Why are we **integrating** tests into out pipeline:
+> - **Eliminates Toil**, as we the test will be run **manually** otherwise, which is not overhead but toil as it is repetitive.
+> - **Automation**, as we are automating the **integration** and **unit** tests
+> - **Release Engineering**, As we are automating the **release** of our application
