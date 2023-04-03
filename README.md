@@ -23,7 +23,8 @@ This is what I would suggest for the structure, beggining from the flow of the a
 ## SLI/ SLO/ SLA
 
 > Talk about how we have **SLI/ SLO/ SLA** and how we can improve them
-> - Talk about the SLI's we have in our moniutoring system, and were we get them, Prometheus and Grafana
+> - Talk about the SLI's we have in our monitoring system, and were we get them, Prometheus and Grafana
+> - Talk about how **SLI's** are the **metrics** we use to measure our **SLO's** and dirrectly corralate to our end users **Happiness**
 > - Talk about the SLI's we currently have, eg, **Availability** and **Latency**
 > - Talk about the actual calculations behind the SLI's, eg, **Availability** is the number of successful requests / total number of requests and **Latency** is number of requests under 0.3s / total number of requests
 > - Talk about how we can improve them by adding more SLI's, eg, **latency** of the actual functions within our applications to help whith dioagnosing issues
@@ -39,7 +40,7 @@ This is what I would suggest for the structure, beggining from the flow of the a
 > - Talk about how we can improve it by adding more **alerts** to our monitoring system, what are **alerts** and why do we need them
 > - Talk about how we can improve it by adding more **dashboards** to our monitoring system, what are **dashboards** and why do we need them
 
-## incidents
+## Incidents
 >Do we currently have any protocols for **incidents**?
 > - Talk about how we can improve it by having a **protocol** for **incidents**
 > - Create a central location for **postmortems** and logging of **incidents** and doccumentation of **incidents**
