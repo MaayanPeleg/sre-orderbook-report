@@ -31,6 +31,7 @@ This is what I would suggest for the structure, beggining from the flow of the a
 > - talk about the acctual bad latency we have, how the latency of our orderbook is less than 50%.
 > - Talk to our clinet to agree on SLA's for our applications, eg, **Availability** of 99.9% and **Latency** of 95% for our orderbook
 > - Agree as a **Team** on SLO's for our application
+> - Talk about the difference between **Availability** and **Reliability**
 
 ## Monitoring
 
@@ -43,6 +44,7 @@ This is what I would suggest for the structure, beggining from the flow of the a
 ## Incidents
 >Do we currently have any protocols for **incidents**?
 > - Talk about how we can improve it by having a **protocol** for **incidents**
+> - Create a mock protocol for **incidents** and explain why we need it
 > - Create a central location for **postmortems** and logging of **incidents** and doccumentation of **incidents**
 > - create an example incident and create a runthrough of how we would handle it creating the example around the team
 >    - Then create a **postmortem** and explain why we use **postmortems** and how they are useful more in future **incidents** as they explain what went wrong and ow to improve **MTTR**
