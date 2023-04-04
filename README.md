@@ -1,5 +1,5 @@
 # This is a repository for our SRE report
-This is what I would suggest for the structure, beggining from the flow of the activities we did of the SRE [report](https://docs.google.com/presentation/d/1-NWifK1iWYW1R6WIJ-O10OCrbUyNuTlIage0yU1Cz_g/edit?usp=sharing):
+This is what I would suggest for the structure, beginning from the flow of the activities we did of the SRE [report](https://docs.google.com/presentation/d/1-NWifK1iWYW1R6WIJ-O10OCrbUyNuTlIage0yU1Cz_g/edit?usp=sharing):
 ## Pipelines
 > Talk about piplines first as they are the first thing we worked on
 > - Talk about the different **pipelines** we have and how they work
