@@ -9,6 +9,7 @@ Through the activities we identfied the following **SLI's**:
 - **Availability of NGINX Controller** - The number of successful requests (status 200) / total number of requests
 - **Latency of orderbooks history page** - The number of requests under 0.3s / total number of requests
 
+All of which were displayed through grafana using prometheus as the data source. 
 ### SLO's
 
 With these we could then start to set **SLO's** and **Error budgets** as a team, so we sat down in a meeting scenario and we decided to set our **SLO's** to be:
