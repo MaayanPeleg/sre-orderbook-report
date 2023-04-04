@@ -19,3 +19,6 @@ Next I Decided to have a meeting with a client of the application, and we discus
 - Z
 
 We wanted the SLA's to have a greater **Error budget** than the SLO's, as with that the client would be more willing to accept a greater downtime, and then we could experiment and innovate more, and therefore improve the application at a faster pace, making the end user happier.
+
+## How we used the SLI's, SLO's and SLA's
+From the SLI's and SLO's created, we discovered that our application would not be meeting our targets for Latency within a 90 day period. The latency of both the application and the NGINX controller were too low, around (50%), there are no further metrics that can help us figure out the cause of this, Therefore we declare that an incident has occurd and investage and diagnose the root cause of this.
