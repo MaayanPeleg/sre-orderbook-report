@@ -12,7 +12,8 @@ Through the activities we identfied the following **SLI's**:
 All of which were displayed through grafana using prometheus as the data source. 
 ### SLO's
 
-With these we could then start to set **SLO's** and **Error budgets** as a team, so we sat down in a meeting scenario and we decided to set our **SLO's** to be:
+With these we could then start to set **SLO's** and **Error budgets** as a team, where we began to discuss what we should set the SLO's to be, this became a debate within the team as if we set this high, our application will be extremely stable, but will restrict innovation and experimentation, as we will be afraid to change anything, and if we set it low, we will be able to experiment and innovate, and develop our application faster, but the application will be likley more unstable, and therefore the end user will be unhappy.
+ We decided to have an initial meeting with the client, and discuss the **SLI's** and **SLO's** and how they would affect the client, and whether the client wanted to prioritise stability or innovation. From this, we decided to set the **SLO's** to be:
 - X
 - Y
 - Z
@@ -24,7 +25,7 @@ Based upon our **SLO's** we then calculated our **Error budgets** to be:
 - Y
 - Z
 
-With an **Error budget** of 1% we can afford to have 1% **downtime** within a **timeframe**, and still be within our **Error budget**. This is important as it allows us to **experiment and innovate**, and therefore improve the application at a faster pace, making the end user happier, whist mainting and ensureing that our application is stable, and therefore **meeting our SLO's**.
+With an **Error budget** of 1%, for example, we can afford to have 1% **downtime** within a **timeframe**, and still be within our **Error budget**. This is important as it allows us to **experiment and innovate**, and therefore improve the application at a faster pace, making the end user happier, whist mainting and ensureing that our application is stable, and therefore **meeting our SLO's**.
 
 ### SLA's
 
@@ -36,4 +37,7 @@ Next I Decided to have a meeting with a client of the application, and we discus
 We wanted the SLA's to have a greater **Error budget** than the SLO's, as with that the client would be more willing to accept a greater downtime, and then we could experiment and innovate more, and therefore improve the application at a faster pace, making the end user happier.
 
 ## How we used the SLI's, SLO's and SLA's
-From the SLI's and SLO's created, we discovered that our application would not be meeting our targets for Latency within a 90 day period. The latency of both the application and the NGINX controller were too low, around (50%), there are no further metrics that can help us figure out the cause of this, Therefore we declare that an incident has occurd and investage and diagnose the root cause of this.
+
+Our SLI's informed us that our application seems to be meeting our availability SLO's, as it is consistantly 100% available, this goes for all of our path checks and the application itself.
+
+However, we discovered that our application would not be meeting our targets for Latency within a 90 day period. The latency of both the application and the NGINX controller were too low, around (50%), there are no further metrics that can help us figure out the cause of this, Therefore we declare that an incident has occurd and investage and diagnose the root cause of this.
