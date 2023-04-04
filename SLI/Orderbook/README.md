@@ -1,5 +1,6 @@
 # SLI's, SLO's and SLA's Within Our orderbook Application
 When we were first given the application, there were no **SLI's** or **SLO's**, We had to create these through our activities, and even come up with some within our team. Within the activities, and through our learning, we discovered that **SLI's** are dirrectly correlated to **user satisfaction**, and therefore we need to identify the metrics to use as **SLI's** and a bassis for our **SLO's** and **Error budgets**.
+### SLI's
 Through the activities we identfied the following **SLI's**:
 - **Availability of buy Requests Thorugh */buy* path** - The number of successful requests (status 200) / total number of requests
 - **Latency of buy Requests Thorugh */buy* path** - The number of requests under 0.3s / total number of requests
@@ -8,10 +9,14 @@ Through the activities we identfied the following **SLI's**:
 - **Availability of NGINX Controller** - The number of successful requests (status 200) / total number of requests
 - **Latency of orderbooks history page** - The number of requests under 0.3s / total number of requests
 
+### SLO's
+
 With these we could then start to set **SLO's** and **Error budgets** as a team, so we sat down in a meeting scenario and we decided to set our **SLO's** to be:
 - X
 - Y
 - Z
+
+### SLA's
 
 Next I Decided to have a meeting with a client of the application, and we discussed the **SLI's** and **SLO's** and how they would affect the client, and we decided to set the **SLA's** to be:
 - X
