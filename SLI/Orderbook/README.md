@@ -17,6 +17,15 @@ With these we could then start to set **SLO's** and **Error budgets** as a team,
 - Y
 - Z
 
+### Error Budgets
+
+Based upon our **SLO's** we then calculated our **Error budgets** to be:
+- X
+- Y
+- Z
+
+With an **Error budget** of 1% we can afford to have 1% **downtime** within a **timeframe**, and still be within our **Error budget**. This is important as it allows us to **experiment and innovate**, and therefore improve the application at a faster pace, making the end user happier, whist mainting and ensureing that our application is stable, and therefore **meeting our SLO's**.
+
 ### SLA's
 
 Next I Decided to have a meeting with a client of the application, and we discussed the **SLI's** and **SLO's** and how they would affect the client, and we decided to set the **SLA's** to be:
