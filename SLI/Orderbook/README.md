@@ -13,10 +13,14 @@ All of which were displayed through grafana using prometheus as the data source.
 ### SLO's
 
 With these we could then start to set **SLO's** and **Error budgets** as a team, where we began to discuss what we should set the SLO's to be, this became a debate within the team as if we set this high, our application will be extremely stable, but will restrict innovation and experimentation, as we will be afraid to change anything, and if we set it low, we will be able to experiment and innovate, and develop our application faster, but the application will be likley more unstable, and therefore the end user will be unhappy.
- We decided to have an initial meeting with the client, and discuss the **SLI's** and **SLO's** and how they would affect the client, and whether the client wanted to prioritise stability or innovation. From this, we decided to set the **SLO's** to be:
+
+
+After some careful consideration within our team, we chose to be more reliable, as we are creating an application that deals with finacial transactions, than innovative. From this, we decided to set the **SLO's** to be:
 - X
 - Y
 - Z
+
+SlO's can also be setting improvement goals from one period to the next, For example, if we set our **SLO's** to be **100% availability**, and we are currently at **99%**, we can set an **SLO** to improve our application by 1% within a **timeframe**. The point I am trying to make is that SLO's can be used to set improvement goals, therefore the end user experience.
 
 ### Error Budgets
 
@@ -29,12 +33,7 @@ With an **Error budget** of 1%, for example, we can afford to have 1% **downtime
 
 ### SLA's
 
-Next I Decided to have a meeting with a client of the application, and we discussed the **SLI's** and **SLO's** and how they would affect the client, and we decided to set the **SLA's** to be:
-- X
-- Y
-- Z
-
-We wanted the SLA's to have a greater **Error budget** than the SLO's, as with that the client would be more willing to accept a greater downtime, and then we could experiment and innovate more, and therefore improve the application at a faster pace, making the end user happier.
+As we do not have a client, we cannot set **SLA's** for our application, but as a guildine for setting SLO's when a client arises, we want the SLA's to have a greater **Error budget** than the SLO's, as with that the client would be more willing to accept a greater downtime, and then we could experiment and innovate more, and therefore improve the application at a faster pace, making the end user happier.
 
 ## How we used the SLI's, SLO's and SLA's
 
