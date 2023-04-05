@@ -19,10 +19,10 @@ SLO's leads into a concept of an **Error Budget**, which is the amount of servic
 ## High vs Low SLO's
 Within a team, a decision arises when it comes to deciding the **SLO's** for the application, and this decision is whether to set **High** or **Low** **SLO's**. And this decision is based on the **teams** lean towards availability or innovation.
 ### High SLO's
-High **SLO's** are typically set by teams who lean towards **Availability** and **Reliability**, and are typically set by teams who are more mature, and just want to ensure the application works and nothing more
+High **SLO's** are typically set by teams who lean towards **Availability** and **Reliability**, and are typically set by teams who want to ensure the application remains available as much as possible, and value reliabiliry over innovation.
 
 ### Low SLO's
-Low **SLO's** are typically set by teams who lean towards **Innovation** and **Experimentation**, and are typically set by teams who are less mature, want the application to develop faster and iclude experimental features, and are willing to sacrifice **Availability** for **Innovation**.
+Low **SLO's** are typically set by teams who lean towards **Innovation** and **Experimentation**, and are typically set by teams who want the application to develop faster and iclude experimental features, and are willing to sacrifice **Availability** for **Innovation**.
 
 The choice a team decides is up to them, and is based on the teams **culture** and **values**, or maybe even influenced by the **Customer** or **Managment**
 > ### Good SLO:
