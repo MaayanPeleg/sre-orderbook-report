@@ -29,7 +29,7 @@ With an **Error budget** of 1%, for example, we can afford to have 1% **downtime
 
 ### SLA's
 
-As we do not have a client, we cannot set **SLA's** for our application, but as a guildine for setting SLO's when a client arises, we want the SLA's to have a greater **Error budget** than the SLO's, as with that the client would be more willing to accept a greater downtime, and then we could experiment and innovate more, and therefore improve the application at a faster pace, making the end user happier.
+As we do not have a client, we cannot set **SLA's** for our application, but as a guildine for setting SLO's when a client arises, we want the SLA's to have a greater **Error budget** than the SLO's, as with that the company is less likey to exceed the promised performance of our application, and nor risk facing fines.
 
 ## How we used the SLI's, SLO's and SLA's
 
