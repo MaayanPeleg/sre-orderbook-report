@@ -1,8 +1,8 @@
-Pipeline script
+# Pipeline script
 
 -------------
 
-Slide 1 - What is a pipeline?
+## Slide 1 - What is a pipeline?
 
 A pipeline is a series of automated steps, each step must be completed and passed through successfully before being deployed and released to production
 - These steps include building, testing and deploying the code
@@ -18,7 +18,7 @@ Benefits of Pipelines:
 
 ------------------------------------
 
-Slide 2 - Pipelines within Orderbook
+## Slide 2 - Pipelines within Orderbook
 - Currently on the orderbook application we have to pipelines - one that creates the dev environment and one that prmotes to production.
 - The initial pipeline will build our code and then publish them as docker images by using the Kaniko container
 - These docker images are then pushed to the AWS ECR repository, ready to be promoted into production
@@ -27,7 +27,7 @@ Slide 2 - Pipelines within Orderbook
 
 -----------------------------
 
-Slide 3 - What can we improve?
+## Slide 3 - What can we improve?
 
 Going through our pipeline there are many thins we can improve:
 - Firstly our pipeline is run every 10 minutes and our container are being rebuilt even if nothing has changed 
@@ -42,7 +42,7 @@ Going through our pipeline there are many thins we can improve:
 
 ---------------------
 
-Slide 4 - SRE in Pipelines
+## Slide 4 - SRE in Pipelines
 
 When implementing these changes we have to take into account the SRE principles and how we can implement them into our pipelines:
 - Eliminating Toil 
