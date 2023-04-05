@@ -12,7 +12,7 @@ Through the activities we identfied the following **SLI's**:
 All of which were displayed through grafana using prometheus as the data source. 
 ### SLO's
 
-With these we could then start to set **SLO's** and **Error budgets** as a team, where we began to discuss what we should set the SLO's to be, this became a debate within the team as if we set this high, our application will be extremely stable, but will restrict innovation and experimentation, as we will be afraid to change anything, and if we set it low, we will be able to experiment and innovate, and develop our application faster, but the application will be likley more unstable, and therefore the end user will be unhappy.
+With these we could then start to define **SLO's** and **Error budgets** as a team, where we began to discuss what we should set the SLO's to be, this became a debate within the team as if we set this high, our application will be extremely stable, but will restrict innovation and experimentation, as we will be afraid to change anything, and if we set it low, we will be able to experiment and innovate, and develop our application faster, but the application will be likley more unstable, and therefore the end user will be unhappy.
 
 
 After some careful consideration within our team, we chose to be more reliable, as we are creating an application that deals with finacial transactions, than innovative. From this, we decided that we want the **SLO's** to be high, in the region of 4 nines, so that our apllication would remain reliable.
