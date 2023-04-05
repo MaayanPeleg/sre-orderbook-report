@@ -15,19 +15,15 @@ All of which were displayed through grafana using prometheus as the data source.
 With these we could then start to set **SLO's** and **Error budgets** as a team, where we began to discuss what we should set the SLO's to be, this became a debate within the team as if we set this high, our application will be extremely stable, but will restrict innovation and experimentation, as we will be afraid to change anything, and if we set it low, we will be able to experiment and innovate, and develop our application faster, but the application will be likley more unstable, and therefore the end user will be unhappy.
 
 
-After some careful consideration within our team, we chose to be more reliable, as we are creating an application that deals with finacial transactions, than innovative. From this, we decided to set the **SLO's** to be:
-- X
-- Y
-- Z
+After some careful consideration within our team, we chose to be more reliable, as we are creating an application that deals with finacial transactions, than innovative. From this, we decided that we want the **SLO's** to be high, in the region of 4 nines, so that our apllication would remain reliable.
+
+If we were within a team atually managing this application we would set actual targets, but giving a guideline is sufficient for this activity.
 
 SlO's can also be setting improvement goals from one period to the next, For example, if we set our **SLO's** to be **100% availability**, and we are currently at **99%**, we can set an **SLO** to improve our application by 1% within a **timeframe**. The point I am trying to make is that SLO's can be used to set improvement goals, therefore the end user experience.
 
 ### Error Budgets
 
-Based upon our **SLO's** we then calculated our **Error budgets** to be:
-- X
-- Y
-- Z
+Based upon our **SLO's** we could then calculate our **Error budgets**. Which is the amount of downtime we can afford within a **timeframe**, calculated by 1 - **SLO**.
 
 With an **Error budget** of 1%, for example, we can afford to have 1% **downtime** within a **timeframe**, and still be within our **Error budget**. This is important as it allows us to **experiment and innovate**, and therefore improve the application at a faster pace, making the end user happier, whist mainting and ensureing that our application is stable, and therefore **meeting our SLO's**.
 

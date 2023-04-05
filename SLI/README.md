@@ -34,7 +34,3 @@ The choice a team decides is up to them, and is based on the teams **culture** a
 ## SLA
 An SLA in short is an agreement, or a promise, to or with a customer regarding the availability, latency or other SLI's to a customer. And this is typically outlined in a **contract**. And is observed and met with **fines and penalties** for the company, if not met. 
 **SLA's** should be made after a meeting with the product owner and team of the application, or after the team has passed the **SLO's** decided to those who will meet with the **customer**, as this allows the **SLA's** to be **Realistic, Achievable** and for te company to not be met with **Penalties**. For Example:
-> ### Good SLA:
-> - A company promises a customer that the application will have a **Latency** of less than 100ms ***99.99% (4 nines)*** of the time, and an **Availability** of ***99.9999% (6 nines)***, and this is the **SLA** that the company will strive to achieve.
-> ### Bad SLA:
-> - Creating an SLA with a customer before **SLO's** are made, or before consulting with the **team** of which work with the application day-to-day, as the application may not be able to reach **SLA** agreements, and therefore the customer will be dissapointed, and the company will be **fined and penalised**, and the **team** is ultimatley punished.
