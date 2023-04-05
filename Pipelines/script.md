@@ -19,7 +19,7 @@ Benefits of Pipelines:
 ------------------------------------
 
 ## Slide 2 - Pipelines within Orderbook
-- Currently on the orderbook application we have to pipelines - one that creates the dev environment and one that prmotes to production.
+- Currently on the orderbook application we have two pipelines - one that creates the dev environment and one that prmotes to production.
 - The initial pipeline will build our code and then publish them as docker images by using the Kaniko container
 - These docker images are then pushed to the AWS ECR repository, ready to be promoted into production
 - The second pipeline will define the Kubernetes pod specification, so our production environment can be set up correctly
