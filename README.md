@@ -50,6 +50,13 @@ This is what I would suggest for the structure, beginning from the flow of the a
 >    - Then create a **postmortem** and explain why we use **postmortems** and how they are useful more in future **incidents** as they explain what went wrong and ow to improve **MTTR**
 >    - What is **MTTR** and why is it important
 
+## Backlog
+> Talk about how we need to create a **backlog** of implementations
+> - talk about the creation of our **backlog**
+> - talk about the **prioritisation** of our **backlog**
+> - talk about why we **peioritised** particular items in our **backlog**
+> eg. why should we not improve out piplines before fixing the problem with our history page.
+
 # SRE
 The seven **principles** of SRE are:
 > - **Embrace Risk**
