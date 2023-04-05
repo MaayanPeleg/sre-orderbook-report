@@ -19,10 +19,10 @@ SLO's leads into a concept of an **Error Budget**, which is the amount of servic
 ## High vs Low SLO's
 Within a team, a decision arises when it comes to deciding the **SLO's** for the application, and this decision is whether to set **High** or **Low** **SLO's**. And this decision is based on the **teams** lean towards availability or innovation.
 ### High SLO's
-High **SLO's** are typically set by teams who lean towards **Availability** and **Reliability**, and are typically set by teams who want to ensure the application remains available as much as possible, and value reliabiliry over innovation.
+High **SLO's** are typically set by teams who lean towards **Availability** and **Reliability**, and those who want to ensure the application remains available as much as possible, and value reliabiliry over innovation.
 
 ### Low SLO's
-Low **SLO's** are typically set by teams who lean towards **Innovation** and **Experimentation**, and are typically set by teams who want the application to develop faster and iclude experimental features, and are willing to sacrifice **Availability** for **Innovation**.
+Low **SLO's** are typically set by teams who lean towards **Innovation** and **Experimentation**, and those who want the application to develop faster and iclude experimental features, and are willing to sacrifice **Availability** for **Innovation**.
 
 The choice a team decides is up to them, and is based on the teams **culture** and **values**, or maybe even influenced by the **Customer** or **Managment**
 > ### Good SLO:
@@ -33,4 +33,4 @@ The choice a team decides is up to them, and is based on the teams **culture** a
 
 ## SLA
 An SLA in short is an agreement, or a promise, to or with a customer regarding the availability, latency or other SLI's to a customer. And this is typically outlined in a **contract**. And is observed and met with **fines and penalties** for the company, if not met. 
-**SLA's** should be made after a meeting with the product owner and team of the application, or after the team has passed the **SLO's** decided to those who will meet with the **customer**, as this allows the **SLA's** to be **Realistic, Achievable** and for te company to not be met with **Penalties**. For Example:
+**SLA's** should be made after a meeting with the product owner and team of the application, or after the team has passed the **SLO's** decided to those who will meet with the **customer**, as this allows the **SLA's** to be **Realistic, Achievable** and for te company to not be met with **Penalties**.
