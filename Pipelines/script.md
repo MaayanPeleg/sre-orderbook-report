@@ -6,8 +6,8 @@
 
 A pipeline is a series of automated steps, each step must be completed and passed through successfully before being deployed and released to production
 - These steps include building, testing and deploying the code
-- This is done by using various tools in order to build our pipeline - 
-- So usually we first commit out changes to a source code management system
+- In order to build our pipline we use various tools - 
+- So usually we first commit out changes to a source code management system, for example GitHub
 - Then we use a pipeline tool, for example Jenkins, to receive these changes,
 - This pipeline tool will then build the code and run the tests, if these tests pass then the changes will be deployed
 
