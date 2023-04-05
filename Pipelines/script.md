@@ -33,7 +33,7 @@ Going through our pipeline there are many thins we can improve:
 - Firstly our pipeline is run every 10 minutes and our container are being rebuilt even if nothing has changed 
 - This can be improved and made more efficient
   - This can be done by setting up a webhook so the pipeline is run when a change is made to the source code
-- Within the pipeline there is currently no testing at all
+- Within the pipeline there is currently no testing at all - obviously this a problem as it can hinder the flow of the pipeline and stop smooth and reliable releases, defeating the whol epurpose of the pipeline
   - We can add unit testing to firstly test individual components
   - Then integration testing can be added, so the overall application can be tested before being deployed production
     -Currently we have to manually test our on our dev environment, so having automated integration tests should solve this
