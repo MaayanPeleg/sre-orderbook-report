@@ -57,4 +57,5 @@ When implementing these changes we have to take into account the SRE principles 
  
 -------------------
   
+  After deployment, monitoring the application is very important, and I'll pass it over to George to speak about it.
   
