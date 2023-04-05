@@ -8,11 +8,7 @@ A pipeline is a series of automated steps, each step must be completed and passe
 - These steps include building, testing and deploying the code
 - This is done by using various tools in order to build our pipeline - 
 - So usually we first commit out changes to a source code management system
-- Then we use a pipeline tool to receive these changes, there a number of tools we can use for this, some of them are:
-  - Jenkins - a popular open source automation server that can be used for pipelines
-  - Gitlab CI/CD - web based way to simply create and manage pipelines
-  - CircleCi - a cloud based platform used for pipelines
- and there are many other tools that can be used.
+- Then we use a pipeline tool, for example Jenkins, to receive these changes,
 - This pipeline tool will then build the code and run the tests, if these tests pass then the changes will be deployed
 
 Benefits of Pipelines:
