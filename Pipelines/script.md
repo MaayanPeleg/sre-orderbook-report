@@ -36,7 +36,7 @@ Going through our pipeline there are many thins we can improve:
 - Within the pipeline there is currently no testing at all - obviously this a problem as it can hinder the flow of the pipeline and stop smooth and reliable releases, defeating the whol epurpose of the pipeline
   - We can add unit testing to firstly test individual components
   - Then integration testing can be added, so the overall application can be tested before being deployed production
-    -Currently we have to manually test our on our dev environment, so having automated integration tests should solve this
+   - Currently we have to manually test our on our dev environment, so having automated integration tests should solve this
 - Right now to promote to production we have to manually deploy the promotion pipeline
   - After doing integration tests, we can also automate this promotion to production
 
