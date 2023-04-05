@@ -46,7 +46,7 @@ Going through our pipeline there are many thins we can improve:
 
 When implementing these changes we have to take into account the SRE principles and how we can implement them into our pipelines:
 - Eliminating Toil 
-  - We need to integrate tests into our pipeline, other this will be done manually, which is a repetitive tasks that would be classed as toil
+  - We need to integrate tests into our pipeline, otherwise these tests will be done manually, which is a repetitive task that would be classed as toil
 - Automation
   - We can automate the promoting to production pipeline
   - Our unit tests and integration tests will be automated
