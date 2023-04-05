@@ -5,8 +5,8 @@ Pipeline script
 Slide 1 - What is a pipeline?
 
 A pipeline is a series of automated steps, each step must be completed and passed through successfully before being deployed and released to production
-These steps include building, testing and deploying the code
-This is done by using various tools in order to build our pipeline - 
+- These steps include building, testing and deploying the code
+- This is done by using various tools in order to build our pipeline - 
 - So usually we first commit out changes to a source code management system
 - Then we use a pipeline tool to receive these changes, there a number of tools we can use for this, some of them are:
   - Jenkins - a popular open source automation server that can be used for pipelines
@@ -44,10 +44,21 @@ Going through our pipeline there are many thins we can improve:
 - Right now to promote to production we have to manually deploy the promotion pipeline
   - After doing integration tests, we can also automate this promotion to production
 
+---------------------
+
 Slide 4 - SRE in Pipelines
 
 When implementing these changes we have to take into account the SRE principles and how we can implement them into our pipelines:
 - Eliminating Toil 
   - We need to integrate tests into our pipeline, other this will be done manually, which is a repetitive tasks that would be classed as toil
+- Automation
+  - We can automate the promoting to production pipeline
+  - Our unit tests and integration tests will be automated
+- Release Engineering
+  - Automating the release of the application, ensuring the release on a whole is efficient and automated
+- Simplicity
+  - We will automate where we need to and not over complicate and over do things
+ 
+-------------------
   
   
